@@ -12,7 +12,7 @@ public class Ejercicio4 {
 	} finally { 
 	System.out.println("main: finally"); 
 	} 
-	} // cierra main 
+	} 
 	 
 	public static void metodoA() { 
 	try { 
@@ -24,7 +24,7 @@ public class Ejercicio4 {
 	} finally { 
 	System.out.println("metodoA: finally"); 
 	} 
-	} // cierra metodoA
+	}
 	 
 	public static void metodoB() { 
 	try { 
@@ -36,7 +36,7 @@ public class Ejercicio4 {
 	} finally { 
 	System.out.println("metodoB: finally"); 
 	} 
-	} // cierra metodoB
+	}
 	 
 	public static void metodoC() { 
 	try { 
@@ -48,7 +48,7 @@ public class Ejercicio4 {
 	} finally { 
 	System.out.println("metodoC: finally"); 
 	} 
-	} // cierra metodoC
+	}
 	
 	public static void metodoD() { 
 	try { 
@@ -59,6 +59,6 @@ public class Ejercicio4 {
 	} finally { 
 	System.out.println("metodoD: finally"); 
 	} 
-	} // cierra metodoD
+	}
 	 
 }
