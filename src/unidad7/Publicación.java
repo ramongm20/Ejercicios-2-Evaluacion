@@ -1,13 +1,13 @@
 package unidad7;
 
 public abstract class Publicación {
-	private int contador = 0;
+	private static int contador = 0;
 	private int código;
 	private String título;
 	private int año;
 	
 	public Publicación(String título, int año) {
-		this.código = contador++;
+		this.código = ++contador;
 		this.título = título;
 		this.año = año;
 	}
